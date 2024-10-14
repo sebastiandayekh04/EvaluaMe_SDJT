@@ -87,10 +87,10 @@ Los casos de uso describen cómo los usuarios interactuarán con el sistema y qu
 ### Casos de uso general
 La aplicación web debe permitir a un usuario registrarse con su nombre, apellidos, correo electrónico y contraseña, y posteriormente iniciar y cerrar sesión. Un usuario registrado podrá ver un listado de proyectos publicados por otros estudiantes, editar su perfil y subir una imagen de avatar.
 Si el usuario registrado tiene el rol de 'estudiante', podrá:
-Publicar sus propios proyectos con información como: título del proyecto, descripción, imágenes representativas, enlaces al código fuente o demos, estado del proyecto, etc.
-Editar o eliminar sus proyectos publicados.
-Realizar autoevaluaciones de sus proyectos basadas en criterios establecidos.
-Evaluar los proyectos de sus compañeros mediante coevaluaciones, proporcionando comentarios y valoraciones.
+- Publicar sus propios proyectos con información como: título del proyecto, descripción, imágenes representativas, enlaces al código fuente o demos, estado del proyecto, etc.
+- Editar o eliminar sus proyectos publicados.
+- Realizar autoevaluaciones de sus proyectos basadas en criterios establecidos.
+- Evaluar los proyectos de sus compañeros mediante coevaluaciones, proporcionando comentarios y valoraciones.
 El profesor, con el rol de 'administrador', podrá:
 Gestionar los perfiles de todos los usuarios registrados en la plataforma (editar, borrar, asignar roles, etc.).
 Revisar y moderar los comentarios y evaluaciones realizadas por los estudiantes.
