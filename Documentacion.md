@@ -92,122 +92,122 @@ Si el usuario registrado tiene el rol de 'estudiante', podrá:
 - Realizar autoevaluaciones de sus proyectos basadas en criterios establecidos.
 - Evaluar los proyectos de sus compañeros mediante coevaluaciones, proporcionando comentarios y valoraciones.
 El profesor, con el rol de 'administrador', podrá:
-Gestionar los perfiles de todos los usuarios registrados en la plataforma (editar, borrar, asignar roles, etc.).
-Revisar y moderar los comentarios y evaluaciones realizadas por los estudiantes.
-Establecer los criterios y rúbricas de evaluación que se utilizarán en las autoevaluaciones y coevaluaciones.
-Acceder a reportes y estadísticas sobre el desempeño de los estudiantes y la interacción en la plataforma.
-Fases de desarrollo
+- Gestionar los perfiles de todos los usuarios registrados en la plataforma (editar, borrar, asignar roles, etc.).
+- Revisar y moderar los comentarios y evaluaciones realizadas por los estudiantes.
+- Establecer los criterios y rúbricas de evaluación que se utilizarán en las autoevaluaciones y coevaluaciones.
+- Acceder a reportes y estadísticas sobre el desempeño de los estudiantes y la interacción en la plataforma.
+### Fases de desarrollo
 Para organizar el desarrollo del proyecto y cumplir con los objetivos establecidos, seguiremos las siguientes fases:
-Definición del proyecto y requisitos básicos: Clarificar las expectativas de la aplicación y anotar cada funcionalidad considerando los diferentes roles de acceso.
-Definición de las versiones: Dividir el trabajo en versiones operativas, cada una ampliando las funcionalidades de la anterior.
-Planificación del proyecto: Utilizando la metodología Agile, dividir el proceso en historias y tareas para cada versión, asignar tiempos y representarlas mediante diagramas.
-Diseño de la interfaz:
-Realizar un benchmarking para inspirarse en soluciones similares.
-Crear un modelo de usuarios.
-Diseñar prototipos de baja fidelidad (bocetos, wireframes).
-Desarrollar un mockup de alta fidelidad junto con una guía de estilos utilizando Figma.
-Realizar pruebas de usabilidad y ajustar los prototipos según los resultados.
-Programación del frontend (HTML/CSS/JS):
-Maquetar los prototipos en código.
-Implementar la lógica de validación en el lado del cliente.
-Programación del backend:
-Utilizar un Backend como Servicio (BaaS) como SUPABASE para:
-Crear las bases de datos.
-Diseñar consultas SQL y funciones en PostgreSQL.
-Programar un ORM en JavaScript para el mapeo de la base de datos.
-Integración de frontend y backend:
-Desarrollar la aplicación SPA (Single Page Application) a partir de los prototipos.
-Implementar la lógica de acceso a la base de datos utilizando el ORM.
-Programar el resto de funcionalidades (gestión de sesiones, control de roles, etc.).
-Análisis de usabilidad II:
-Realizar pruebas de usabilidad adicionales y solucionar posibles conflictos detectados.
-Testing y despliegue en producción:
-Diseñar un sistema de testing para crear pruebas unitarias.
-Configurar un entorno DevOps para trabajar con Integración Continua y Despliegue Continuo (CI/CD).
-Desplegar en producción cada una de las versiones.
-Versiones
+1. __Definición del proyecto y requisitos básicos:__ Clarificar las expectativas de la aplicación y anotar cada funcionalidad considerando los diferentes roles de acceso.
+2. __Definición de las versiones:__ Dividir el trabajo en versiones operativas, cada una ampliando las funcionalidades de la anterior.
+3. __Planificación del proyecto:__ Utilizando la metodología Agile, dividir el proceso en historias y tareas para cada versión, asignar tiempos y representarlas mediante diagramas.
+4. __Diseño de la interfaz:__
+* Realizar un benchmarking para inspirarse en soluciones similares.
+* Crear un modelo de usuarios.
+* Diseñar prototipos de baja fidelidad (bocetos, wireframes).
+* Desarrollar un mockup de alta fidelidad junto con una guía de estilos utilizando Figma.
+* Realizar pruebas de usabilidad y ajustar los prototipos según los resultados.
+5. __Programación del frontend (HTML/CSS/JS):__
+* Maquetar los prototipos en código.
+* Implementar la lógica de validación en el lado del cliente.
+6. __Programación del backend:__
+* Utilizar un Backend como Servicio (BaaS) como SUPABASE para:
+  + Crear las bases de datos.
+  + Diseñar consultas SQL y funciones en PostgreSQL.
+* Programar un ORM en JavaScript para el mapeo de la base de datos.
+7. __Integración de frontend y backend:__
+- Desarrollar la aplicación SPA (Single Page Application) a partir de los prototipos.
+- Implementar la lógica de acceso a la base de datos utilizando el ORM.
+- Programar el resto de funcionalidades (gestión de sesiones, control de roles, etc.).
+8. __Análisis de usabilidad II:__
+- Realizar pruebas de usabilidad adicionales y solucionar posibles conflictos detectados.
+9. __Testing y despliegue en producción:__
+- Diseñar un sistema de testing para crear pruebas unitarias.
+- Configurar un entorno DevOps para trabajar con Integración Continua y Despliegue Continuo (CI/CD).
+- Desplegar en producción cada una de las versiones.
+### Versiones
 El desarrollo del proyecto se dividirá en las siguientes versiones basadas en las funcionalidades a implementar:
-- VERSIÓN 1.0: Implementación de la publicación de proyectos y autoevaluaciones.
-- VERSIÓN 2.0: Implementación de las coevaluaciones entre estudiantes.
-- VERSIÓN 3.0: Implementación de un sistema avanzado de evaluación basado en rúbricas y criterios personalizados establecidos por el profesor.
+- __VERSIÓN 1.0:__ Implementación de la publicación de proyectos y autoevaluaciones.
+- __VERSIÓN 2.0:__ Implementación de las coevaluaciones entre estudiantes.
+- __VERSIÓN 3.0:__ Implementación de un sistema avanzado de evaluación basado en rúbricas y criterios personalizados establecidos por el profesor.
 
 
 
-Backlog de Producto y Sprint para "EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil"
+# Backlog de Producto y Sprint para "EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil"
 Estas son las historias a planificar en la entrega de la versión 1 de nuestro proyecto, agrupadas por sprints:
 
 ## SPRINT 0: Definición del Proyecto
-Historia: Requisitos, Casos de Uso y Diagrama de Casos de Uso
-Como desarrollador, quiero definir de manera general las especificaciones de la aplicación, incluyendo los requisitos y casos de uso, para comprender claramente las funcionalidades esperadas.
-Historia: Versiones y Planificación
+## Historia: Requisitos, Casos de Uso y Diagrama de Casos de Uso
+__Como desarrollador__, quiero definir de manera general las especificaciones de la aplicación, incluyendo los requisitos y casos de uso, para comprender claramente las funcionalidades esperadas.
+### Historia: Versiones y Planificación
 Como desarrollador, quiero agrupar las especificaciones en versiones, definir las tareas necesarias y planificar todo el proceso de desarrollo del proyecto.
-Historia: Casos de Uso Específicos y Diagramas de Flujo
-Como desarrollador, quiero detallar las especificaciones y casos de uso para la versión 1.0, creando diagramas de flujo para visualizar los procesos.
+__Historia: Casos de Uso Específicos y Diagramas de Flujo__
+__Como desarrollador__, quiero detallar las especificaciones y casos de uso para la versión 1.0, creando diagramas de flujo para visualizar los procesos.
 Nota: Esta historia ya ha comenzado a trabajarse en apartados anteriores. Sin embargo, es importante incluirla para valorar el tiempo total invertido.
 
 ## SPRINT 1: Diseño de la Interfaz
-Historia: Bocetos
-Como diseñador, quiero dibujar los bocetos de todas las pantallas potenciales del proyecto y probar su funcionamiento para asegurar una experiencia de usuario intuitiva.
+#### Historia: Bocetos
+__Como diseñador__, quiero dibujar los bocetos de todas las pantallas potenciales del proyecto y probar su funcionamiento para asegurar una experiencia de usuario intuitiva.
 Historia: Wireframes, Mockups y Guía de Estilos
 Como diseñador, quiero crear wireframes y mockups, además de elaborar una guía de estilos basada en los colores, tipografías y elementos visuales seleccionados.
 
 ## SPRINT 2: Prototipos
-Historia: Entorno de Desarrollo
-Como desarrollador, quiero instalar y configurar las herramientas necesarias para programar la aplicación, gestionar repositorios y establecer un entorno de Integración Continua y Despliegue Continuo (CI/CD).
-Historia: Prototipos HTML
-Como maquetador web, quiero crear las páginas HTML del proyecto a partir de los wireframes, aplicando la guía de estilos y utilizando Bootstrap 5.
-Historia: Validaciones de Formularios
-Como programador, quiero definir e implementar las validaciones de los formularios para asegurar la integridad de los datos ingresados por los usuarios.
+#### Historia: Entorno de Desarrollo
+__Como desarrollador__, quiero instalar y configurar las herramientas necesarias para programar la aplicación, gestionar repositorios y establecer un entorno de Integración Continua y Despliegue Continuo (CI/CD).
+####  Historia: Prototipos HTML
+__Como maquetador web__, quiero crear las páginas HTML del proyecto a partir de los wireframes, aplicando la guía de estilos y utilizando Bootstrap 5.
+#### Historia: Validaciones de Formularios
+__Como programador__, quiero definir e implementar las validaciones de los formularios para asegurar la integridad de los datos ingresados por los usuarios.
 
 ## SPRINT 3: Implementación de la SPA (Single Page Application)
-Historia: Configuración del Entorno basado en NodeJS
-Como programador, quiero instalar y configurar todas las herramientas necesarias (NodeJS, Vite, etc.) para desarrollar una aplicación SPA en JavaScript.
-Historia: Organización de Archivos y Vistas
-Como programador, quiero configurar la estructura de carpetas para las vistas y crear archivos basados en componentes HTML de los prototipos.
-Historia: Creación de Componentes
-Como programador, quiero desarrollar los componentes para el encabezado, el enrutamiento de páginas y los menús de navegación.
-Historia: Navegación por las Vistas
-Como usuario, quiero poder navegar por todas las vistas de la aplicación, independientemente de mi rol, para familiarizarme con la interfaz.
-Historia: Validación de Formularios en Tiempo Real
-Como usuario, quiero recibir retroalimentación inmediata en los formularios para corregir errores durante la entrada de datos.
-Historia: Autenticación de Usuarios
-Como usuario registrado, quiero que mis datos de sesión se recuerden al iniciar sesión (utilizando localStorage) para facilitar el acceso.
-Historia: Personalización de la Interfaz según el Rol
-Como usuario logueado, quiero que el encabezado y los menús se actualicen según mi rol, mostrando solo las opciones relevantes para mí.
-Historia: Simulación con Datos Ficticios
-Como programador, quiero simular el registro, inicio de sesión y visualización de datos utilizando archivos JSON de prueba.
-Historia: Administración de Usuarios y Proyectos
-Como profesor (administrador), quiero poder gestionar los usuarios y proyectos (ver, editar, borrar) para mantener la plataforma actualizada.
+#### Historia: Configuración del Entorno basado en NodeJS
+__Como programador__, quiero instalar y configurar todas las herramientas necesarias (NodeJS, Vite, etc.) para desarrollar una aplicación SPA en JavaScript.
+#### Historia: Organización de Archivos y Vistas
+__Como programador__, quiero configurar la estructura de carpetas para las vistas y crear archivos basados en componentes HTML de los prototipos.
+####  Historia: Creación de Componentes
+__Como programador__, quiero desarrollar los componentes para el encabezado, el enrutamiento de páginas y los menús de navegación.
+#### Historia: Navegación por las Vistas
+__Como usuario__, quiero poder navegar por todas las vistas de la aplicación, independientemente de mi rol, para familiarizarme con la interfaz.
+#### Historia: Validación de Formularios en Tiempo Real
+__Como usuario__, quiero recibir retroalimentación inmediata en los formularios para corregir errores durante la entrada de datos.
+#### Historia: Autenticación de Usuarios
+__Como usuario registrado__, quiero que mis datos de sesión se recuerden al iniciar sesión (utilizando localStorage) para facilitar el acceso.
+#### Historia: Personalización de la Interfaz según el Rol
+__Como usuario logueado__, quiero que el encabezado y los menús se actualicen según mi rol, mostrando solo las opciones relevantes para mí.
+#### Historia: Simulación con Datos Ficticios
+__Como programador__, quiero simular el registro, inicio de sesión y visualización de datos utilizando archivos JSON de prueba.
+#### Historia: Administración de Usuarios y Proyectos
+__Como profesor (administrador)__, quiero poder gestionar los usuarios y proyectos (ver, editar, borrar) para mantener la plataforma actualizada.
 
 ## SPRINT 4: Backend
-Historia: Diseño de la Base de Datos
-Como programador, quiero diseñar la base de datos utilizando diagramas UML (Entidad-Relación) para estructurar adecuadamente la información.
-Historia: Implementación en Supabase
-Como programador, quiero implementar las tablas y funciones en Supabase, diseñando consultas y funciones PostgreSQL necesarias.
-Historia: Uso de la API de JavaScript de Supabase
-Como programador, quiero utilizar la API de JavaScript de Supabase para interactuar con la base de datos desde la aplicación.
-Historia: Implementación de un ORM en JavaScript
-Como programador, quiero desarrollar un ORM (Object-Relational Mapping) en JavaScript para facilitar el mapeo y manejo de datos de la base de datos.
+#### Historia: Diseño de la Base de Datos
+__Como programador__, quiero diseñar la base de datos utilizando diagramas UML (Entidad-Relación) para estructurar adecuadamente la información.
+#### Historia: Implementación en Supabase
+__Como programador__, quiero implementar las tablas y funciones en Supabase, diseñando consultas y funciones PostgreSQL necesarias.
+#### Historia: Uso de la API de JavaScript de Supabase
+__Como programador__, quiero utilizar la API de JavaScript de Supabase para interactuar con la base de datos desde la aplicación.
+#### Historia: Implementación de un ORM en JavaScript
+__Como programador__, quiero desarrollar un ORM (Object-Relational Mapping) en JavaScript para facilitar el mapeo y manejo de datos de la base de datos.
 
 ## SPRINT 5: Integración del Frontend y Backend
 Historia: Registro e Inicio de Sesión
-Como estudiante, quiero poder registrarme y acceder al sistema para participar en las actividades de evaluación.
-Historia: Gestión de Sesiones y Roles
-Como usuario registrado, quiero que el sistema reconozca mi rol (estudiante o profesor) y adapte la interfaz y funcionalidades disponibles.
-Historia: Edición de Perfil
-Como usuario registrado, quiero poder ver y editar mi perfil, incluyendo la actualización de mi imagen de avatar.
-Historia: Publicación y Gestión de Proyectos
-Como estudiante, quiero poder publicar mis proyectos, ver detalles, editar y eliminar mis propios proyectos.
-Historia: Administración de Usuarios
-Como profesor (administrador), quiero poder ver, editar y eliminar usuarios del sistema, así como asignar roles y permisos.
+__Como estudiante__, quiero poder registrarme y acceder al sistema para participar en las actividades de evaluación.
+#### Historia: Gestión de Sesiones y Roles
+__Como usuario registrado__, quiero que el sistema reconozca mi rol (estudiante o profesor) y adapte la interfaz y funcionalidades disponibles.
+#### Historia: Edición de Perfil
+__Como usuario registrado__, quiero poder ver y editar mi perfil, incluyendo la actualización de mi imagen de avatar.
+#### Historia: Publicación y Gestión de Proyectos
+__Como estudiante__, quiero poder publicar mis proyectos, ver detalles, editar y eliminar mis propios proyectos.
+#### Historia: Administración de Usuarios
+__Como profesor (administrador)__, quiero poder ver, editar y eliminar usuarios del sistema, así como asignar roles y permisos.
 
 ## SPRINT 6: Revisión y Despliegue en Producción de la Versión 1.0
-Historia: Pruebas de Usuario
-Como diseñador, quiero realizar pruebas de usabilidad con un grupo de usuarios para identificar áreas de mejora en la aplicación.
-Historia: Corrección y Mejora
-Como programador, quiero revisar y solucionar los problemas detectados durante las pruebas de usuario para optimizar la aplicación.
-Historia: Despliegue en Producción
-Como programador, quiero desplegar la aplicación en un entorno de producción para que esté accesible a todos los usuarios.
+#### Historia: Pruebas de Usuario
+__Como diseñador__, quiero realizar pruebas de usabilidad con un grupo de usuarios para identificar áreas de mejora en la aplicación.
+#### Historia: Corrección y Mejora
+__Como programador__, quiero revisar y solucionar los problemas detectados durante las pruebas de usuario para optimizar la aplicación.
+#### Historia: Despliegue en Producción
+__Como programador__, quiero desplegar la aplicación en un entorno de producción para que esté accesible a todos los usuarios.
 
 
 
