@@ -7,10 +7,10 @@ Casos de uso general	3
 Fases de desarrollo	4
 Versiones	5
 __Backlog de Producto y Sprint para "EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil"__	6
-SPRINT 0: Definición del Proyecto	6
-Historia: Requisitos, Casos de Uso y Diagrama de Casos de Uso	6
-Historia: Versiones y Planificación	6
-Historia: Casos de Uso Específicos y Diagramas de Flujo	6
+#### SPRINT 0: Definición del Proyecto	6
+* Historia: Requisitos, Casos de Uso y Diagrama de Casos de Uso	6
+* Historia: Versiones y Planificación	6
+* Historia: Casos de Uso Específicos y Diagramas de Flujo	6
 SPRINT 1: Diseño de la Interfaz	6
 Historia: Bocetos	6
 Historia: Wireframes, Mockups y Guía de Estilos	6
