@@ -1,81 +1,81 @@
 # Indice
 
-__EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil__	1
-Escenario del proyecto	3
-Requisitos del proyecto y casos de uso general	3
-Casos de uso general	3
-Fases de desarrollo	4
-Versiones	5
+#### __EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil__	1
+* Escenario del proyecto	3
+* Requisitos del proyecto y casos de uso general	3
+* Casos de uso general	3
+* Fases de desarrollo	4
+* Versiones	5
 __Backlog de Producto y Sprint para "EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil"__	6
 #### SPRINT 0: Definición del Proyecto	6
 * Historia: Requisitos, Casos de Uso y Diagrama de Casos de Uso	6
 * Historia: Versiones y Planificación	6
 * Historia: Casos de Uso Específicos y Diagramas de Flujo	6
-SPRINT 1: Diseño de la Interfaz	6
-Historia: Bocetos	6
-Historia: Wireframes, Mockups y Guía de Estilos	6
-SPRINT 2: Prototipos	7
-Historia: Entorno de Desarrollo	7
-Historia: Prototipos HTML	7
-Historia: Validaciones de Formularios	7
-SPRINT 3: Implementación de la SPA (Single Page Application)	7
-Historia: Configuración del Entorno basado en NodeJS	7
-Historia: Organización de Archivos y Vistas	7
-Historia: Creación de Componentes	7
-Historia: Navegación por las Vistas	7
-Historia: Validación de Formularios en Tiempo Real	7
-Historia: Autenticación de Usuarios	8
-Historia: Personalización de la Interfaz según el Rol	8
-Historia: Simulación con Datos Ficticios	8
-Historia: Administración de Usuarios y Proyectos	8
-SPRINT 4: Backend	8
-Historia: Diseño de la Base de Datos	8
-Historia: Implementación en Supabase	8
-Historia: Uso de la API de JavaScript de Supabase	8
-Historia: Implementación de un ORM en JavaScript	8
-SPRINT 5: Integración del Frontend y Backend	9
-Historia: Registro e Inicio de Sesión	9
-Historia: Gestión de Sesiones y Roles	9
-Historia: Edición de Perfil	9
-Historia: Publicación y Gestión de Proyectos	9
-Historia: Administración de Usuarios	9
-SPRINT 6: Revisión y Despliegue en Producción de la Versión 1.0	9
-Historia: Pruebas de Usuario	9
-Historia: Corrección y Mejora	9
-Historia: Despliegue en Producción	9
-VERSIÓN 2.0: Implementación de las Coevaluaciones entre Estudiantes	11
-SPRINT 1: Diseño y Planificación de la Funcionalidad de Coevaluación	11
-Historia: Definición de Casos de Uso y Diagramas de Flujo para Coevaluaciones	11
-Historia: Actualización de la Interfaz de Usuario	11
-Historia: Actualización de la Guía de Estilos	11
-SPRINT 2: Desarrollo de la Funcionalidad de Coevaluación	11
-Historia: Visualización de Proyectos de Compañeros	11
-Historia: Formulario de Coevaluación	11
-Historia: Validaciones y Reglas de Negocio	11
-Historia: Actualización del Backend para Soportar Coevaluaciones	11
-SPRINT 3: Integración y Pruebas	11
-Historia: Integración del Frontend y Backend para Coevaluaciones	12
-Historia: Notificaciones y Feedback	12
-Historia: Pruebas de Usabilidad y Correcciones	12
-Historia: Despliegue de la Versión 2.0	12
-VERSIÓN 3.0: Implementación de un Sistema Avanzado de Evaluación Basado en Rúbricas y Criterios Personalizados	12
-SPRINT 1: Definición y Configuración de Rúbricas	12
-Historia: Definición de Criterios de Evaluación	12
-Historia: Asignación de Rúbricas a Proyectos	12
-Historia: Diseño de la Interfaz para Rúbricas	12
-SPRINT 2: Desarrollo del Sistema de Evaluación con Rúbricas	12
-Historia: Implementación de Formularios de Evaluación con Rúbricas	13
-Historia: Autoevaluación Basada en Rúbricas	13
-Historia: Actualización del Backend para Soportar Rúbricas	13
-SPRINT 3: Análisis y Reportes	13
-Historia: Visualización de Resultados de Evaluación	13
-Historia: Reportes para el Profesor	13
-Historia: Feedback Automatizado	13
-SPRINT 4: Integración Final y Mejora Continua	13
-Historia: Mejoras en la Experiencia de Usuario	13
-Historia: Pruebas de Usabilidad y Correcciones	13
-Historia: Despliegue de la Versión 3.0	13
-Resumen de Versiones y Funcionalidades	14
+#### SPRINT 1: Diseño de la Interfaz	6
+* Historia: Bocetos	6
+* Historia: Wireframes, Mockups y Guía de Estilos	6
+#### SPRINT 2: Prototipos	7
+* Historia: Entorno de Desarrollo	7
+* Historia: Prototipos HTML	7
+* Historia: Validaciones de Formularios	7
+#### SPRINT 3: Implementación de la SPA (Single Page Application)	7
+* Historia: Configuración del Entorno basado en NodeJS	7
+* Historia: Organización de Archivos y Vistas	7
+* Historia: Creación de Componentes	7
+* Historia: Navegación por las Vistas	7
+* Historia: Validación de Formularios en Tiempo Real	7
+* Historia: Autenticación de Usuarios	8
+* Historia: Personalización de la Interfaz según el Rol	8
+* Historia: Simulación con Datos Ficticios	8
+* Historia: Administración de Usuarios y Proyectos	8
+#### SPRINT 4: Backend	8
+* Historia: Diseño de la Base de Datos	8
+* Historia: Implementación en Supabase	8
+* Historia: Uso de la API de JavaScript de Supabase	8
+* Historia: Implementación de un ORM en JavaScript	8
+#### SPRINT 5: Integración del Frontend y Backend	9
+* Historia: Registro e Inicio de Sesión	9
+* Historia: Gestión de Sesiones y Roles	9
+* Historia: Edición de Perfil	9
+* Historia: Publicación y Gestión de Proyectos	9
+* Historia: Administración de Usuarios	9
+#### SPRINT 6: Revisión y Despliegue en Producción de la Versión 1.0	9
+* Historia: Pruebas de Usuario	9
+* Historia: Corrección y Mejora	9
+* Historia: Despliegue en Producción	9
+### VERSIÓN 2.0: Implementación de las Coevaluaciones entre Estudiantes	11
+#### SPRINT 1: Diseño y Planificación de la Funcionalidad de Coevaluación	11
+* Historia: Definición de Casos de Uso y Diagramas de Flujo para Coevaluaciones	11
+* Historia: Actualización de la Interfaz de Usuario	11
+* Historia: Actualización de la Guía de Estilos	11
+#### SPRINT 2: Desarrollo de la Funcionalidad de Coevaluación	11
+* Historia: Visualización de Proyectos de Compañeros	11
+* Historia: Formulario de Coevaluación	11
+* Historia: Validaciones y Reglas de Negocio	11
+* Historia: Actualización del Backend para Soportar Coevaluaciones	11
+#### SPRINT 3: Integración y Pruebas	11
+* Historia: Integración del Frontend y Backend para Coevaluaciones	12
+* Historia: Notificaciones y Feedback	12
+* Historia: Pruebas de Usabilidad y Correcciones	12
+* Historia: Despliegue de la Versión 2.0	12
+### VERSIÓN 3.0: Implementación de un Sistema Avanzado de Evaluación Basado en Rúbricas y Criterios Personalizados	12
+#### SPRINT 1: Definición y Configuración de Rúbricas	12
+* Historia: Definición de Criterios de Evaluación	12
+* Historia: Asignación de Rúbricas a Proyectos	12
+* Historia: Diseño de la Interfaz para Rúbricas	12
+#### SPRINT 2: Desarrollo del Sistema de Evaluación con Rúbricas	12
+* Historia: Implementación de Formularios de Evaluación con Rúbricas	13
+* Historia: Autoevaluación Basada en Rúbricas	13
+* Historia: Actualización del Backend para Soportar Rúbricas	13
+#### SPRINT 3: Análisis y Reportes	13
+* Historia: Visualización de Resultados de Evaluación	13
+* Historia: Reportes para el Profesor	13
+* Historia: Feedback Automatizado	13
+#### SPRINT 4: Integración Final y Mejora Continua	13
+* Historia: Mejoras en la Experiencia de Usuario	13
+* Historia: Pruebas de Usabilidad y Correcciones	13
+* Historia: Despliegue de la Versión 3.0	13
+* Resumen de Versiones y Funcionalidades	14
 
 ### Escenario del proyecto
 El profesor Juan Martínez es docente en el Instituto Tecnológico ABC y está interesado en mejorar el proceso de evaluación de sus alumnos en las asignaturas de programación y desarrollo web. Actualmente, las evaluaciones se realizan de manera tradicional, lo que limita la retroalimentación y la participación activa de los estudiantes en su propio proceso de aprendizaje.
