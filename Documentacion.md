@@ -209,5 +209,14 @@ __Como programador__, quiero revisar y solucionar los problemas detectados duran
 #### Historia: Despliegue en Producción
 __Como programador__, quiero desplegar la aplicación en un entorno de producción para que esté accesible a todos los usuarios.
 
-## Hola!!!
+  ## Sprint 1 Diseño de la Interfaz
+
+Historia de los bocetos: Nosotros dos hemos pensado en hacer una pagina web tipo foro de colegio para poder ver las publicaciones de los alumnos y sus opiniones.
+
+Tenemos varias maquetas hechas en papel y boli para el borrador de nuestra pagina web. 
+
+Aqui tenemos las fotos de los bocetos para nuestro foro de clase: 
+
+
+
 
