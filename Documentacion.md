@@ -1,81 +1,4 @@
-# Indice
-
-__EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil__	1
-Escenario del proyecto	3
-Requisitos del proyecto y casos de uso general	3
-Casos de uso general	3
-Fases de desarrollo	4
-Versiones	5
-__Backlog de Producto y Sprint para "EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil"__	6
-SPRINT 0: Definición del Proyecto	6
-Historia: Requisitos, Casos de Uso y Diagrama de Casos de Uso	6
-Historia: Versiones y Planificación	6
-Historia: Casos de Uso Específicos y Diagramas de Flujo	6
-SPRINT 1: Diseño de la Interfaz	6
-Historia: Bocetos	6
-Historia: Wireframes, Mockups y Guía de Estilos	6
-SPRINT 2: Prototipos	7
-Historia: Entorno de Desarrollo	7
-Historia: Prototipos HTML	7
-Historia: Validaciones de Formularios	7
-SPRINT 3: Implementación de la SPA (Single Page Application)	7
-Historia: Configuración del Entorno basado en NodeJS	7
-Historia: Organización de Archivos y Vistas	7
-Historia: Creación de Componentes	7
-Historia: Navegación por las Vistas	7
-Historia: Validación de Formularios en Tiempo Real	7
-Historia: Autenticación de Usuarios	8
-Historia: Personalización de la Interfaz según el Rol	8
-Historia: Simulación con Datos Ficticios	8
-Historia: Administración de Usuarios y Proyectos	8
-SPRINT 4: Backend	8
-Historia: Diseño de la Base de Datos	8
-Historia: Implementación en Supabase	8
-Historia: Uso de la API de JavaScript de Supabase	8
-Historia: Implementación de un ORM en JavaScript	8
-SPRINT 5: Integración del Frontend y Backend	9
-Historia: Registro e Inicio de Sesión	9
-Historia: Gestión de Sesiones y Roles	9
-Historia: Edición de Perfil	9
-Historia: Publicación y Gestión de Proyectos	9
-Historia: Administración de Usuarios	9
-SPRINT 6: Revisión y Despliegue en Producción de la Versión 1.0	9
-Historia: Pruebas de Usuario	9
-Historia: Corrección y Mejora	9
-Historia: Despliegue en Producción	9
-VERSIÓN 2.0: Implementación de las Coevaluaciones entre Estudiantes	11
-SPRINT 1: Diseño y Planificación de la Funcionalidad de Coevaluación	11
-Historia: Definición de Casos de Uso y Diagramas de Flujo para Coevaluaciones	11
-Historia: Actualización de la Interfaz de Usuario	11
-Historia: Actualización de la Guía de Estilos	11
-SPRINT 2: Desarrollo de la Funcionalidad de Coevaluación	11
-Historia: Visualización de Proyectos de Compañeros	11
-Historia: Formulario de Coevaluación	11
-Historia: Validaciones y Reglas de Negocio	11
-Historia: Actualización del Backend para Soportar Coevaluaciones	11
-SPRINT 3: Integración y Pruebas	11
-Historia: Integración del Frontend y Backend para Coevaluaciones	12
-Historia: Notificaciones y Feedback	12
-Historia: Pruebas de Usabilidad y Correcciones	12
-Historia: Despliegue de la Versión 2.0	12
-VERSIÓN 3.0: Implementación de un Sistema Avanzado de Evaluación Basado en Rúbricas y Criterios Personalizados	12
-SPRINT 1: Definición y Configuración de Rúbricas	12
-Historia: Definición de Criterios de Evaluación	12
-Historia: Asignación de Rúbricas a Proyectos	12
-Historia: Diseño de la Interfaz para Rúbricas	12
-SPRINT 2: Desarrollo del Sistema de Evaluación con Rúbricas	12
-Historia: Implementación de Formularios de Evaluación con Rúbricas	13
-Historia: Autoevaluación Basada en Rúbricas	13
-Historia: Actualización del Backend para Soportar Rúbricas	13
-SPRINT 3: Análisis y Reportes	13
-Historia: Visualización de Resultados de Evaluación	13
-Historia: Reportes para el Profesor	13
-Historia: Feedback Automatizado	13
-SPRINT 4: Integración Final y Mejora Continua	13
-Historia: Mejoras en la Experiencia de Usuario	13
-Historia: Pruebas de Usabilidad y Correcciones	13
-Historia: Despliegue de la Versión 3.0	13
-Resumen de Versiones y Funcionalidades	14
+# EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil
 
 ### Escenario del proyecto
 El profesor Juan Martínez es docente en el Instituto Tecnológico ABC y está interesado en mejorar el proceso de evaluación de sus alumnos en las asignaturas de programación y desarrollo web. Actualmente, las evaluaciones se realizan de manera tradicional, lo que limita la retroalimentación y la participación activa de los estudiantes en su propio proceso de aprendizaje.
@@ -125,13 +48,6 @@ Para organizar el desarrollo del proyecto y cumplir con los objetivos establecid
 - Diseñar un sistema de testing para crear pruebas unitarias.
 - Configurar un entorno DevOps para trabajar con Integración Continua y Despliegue Continuo (CI/CD).
 - Desplegar en producción cada una de las versiones.
-### Versiones
-El desarrollo del proyecto se dividirá en las siguientes versiones basadas en las funcionalidades a implementar:
-- __VERSIÓN 1.0:__ Implementación de la publicación de proyectos y autoevaluaciones.
-- __VERSIÓN 2.0:__ Implementación de las coevaluaciones entre estudiantes.
-- __VERSIÓN 3.0:__ Implementación de un sistema avanzado de evaluación basado en rúbricas y criterios personalizados establecidos por el profesor.
-
-
 
 # Backlog de Producto y Sprint para "EvalúaMe: Intranet de Autoevaluación y Coevaluación Estudiantil"
 Estas son las historias a planificar en la entrega de la versión 1 de nuestro proyecto, agrupadas por sprints:
@@ -208,6 +124,42 @@ __Como diseñador__, quiero realizar pruebas de usabilidad con un grupo de usuar
 __Como programador__, quiero revisar y solucionar los problemas detectados durante las pruebas de usuario para optimizar la aplicación.
 #### Historia: Despliegue en Producción
 __Como programador__, quiero desplegar la aplicación en un entorno de producción para que esté accesible a todos los usuarios.
+
+## Diseño de Bocetos
+### Home y menus de usuario
+Hemos didivido la interficie en 3 zonas, el encabezado (header), el cuerpo principal (main) y el pie de página (footer).
+En el **header** vamos a alojar una barra superior fija con: el **logo** y nombre de la web (que hará las veces de link a la página principal), un **menú central genérico** (para acceder a páginas públicas), un **menú central específico**  (que será diferente en función del rol de usuario logueado), y un icono (avatar) que permitirá ver la imagen del usuario logueado y que hará de botón para desplegar otro menú, el menú de usuario (que tendrá diferentes items dependiendo de si la sesió está abierta o no y del tipo de rol que tenga el usuario logueado).
+El **cuerpo** (main) albergará el contenido de las páginas. Será la sección que vaya cambiando dependiendo de la página que carguemos. En la página home simplemente aparece una imagen de fondo y el nombre de la web.
+El **Footer** será meramente informativo.
+
+### Pagina Principal
+
+![Alt Text](/Carpeta%20Imagenes/pagPrincipal.jpg)
+
+### Registrarse
+![Alt Text](/Carpeta%20Imagenes/pagRegistro.jpg)
+
+### Iniciar Sesion
+
+![Alt Text](/Carpeta%20Imagenes/pagLogin.jpg)
+
+### Editar mi perfil
+
+![Alt Text](/Carpeta%20Imagenes/pagEdit.jpg/)
+
+### Paneles de profesor
+![Alt Text](/Carpeta%20Imagenes/pagPanalesAdmin.jpg)
+
+### Editar Evaluaciones
+![Alt Text](/Carpeta%20Imagenes/pagEditarProye.jpg)
+
+### Ver evaluaciones 
+![Alt Text](/Carpeta%20Imagenes/pagVerEvaluaciones.jpeg)
+
+### Cuadro de Proyectos
+![Alt Text](/Carpeta%20Imagenes/pagProyecto.jpg)
+
+
 
 
 
